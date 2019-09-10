@@ -19,7 +19,7 @@ export function createBackgroundLayer(backgrounds, sprites) {
 
     return function drawBackgroundLayer(context) {
         context.drawImage(buffer, 0, 0);
-    }
+    };
 }
 
 export function createSpriteLayer(entity) {

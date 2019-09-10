@@ -14,7 +14,7 @@ export default class Timer {
             this.enqueue();
             
             lastTime = time;
-        }
+        };
     }
 
     enqueue() {
